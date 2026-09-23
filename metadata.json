@@ -1,0 +1,7 @@
+{
+  "name": "PRISMA 2020 Research Assistant",
+  "description": "Asistente metodológico para revisiones sistemáticas y metaanálisis PRISMA 2020 con extracción estandarizada de datos desde PDF (Matriz de Evidencia), marco PICO, RoB 2, GRADE y exportación académica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,58 @@
+import { ManuscriptSection } from '../types';
+
+export const INITIAL_SECTIONS: ManuscriptSection[] = [
+  {
+    id: 'title-abstract',
+    title: '1. Título y Resumen Estructurado',
+    subtitle: 'PRISMA 2020 Ítems 1 y 2 (PRISMA-A de 12 ítems)',
+    prismaItemNumbers: ['1', '2'],
+    isConfirmed: false,
+    content: ``,
+    notes: 'Requiere formulación PICO explícita, indicación de "revisión sistemática" en el título y desglose estructurado en el resumen.',
+  },
+  {
+    id: 'introduction',
+    title: '2. Introducción',
+    subtitle: 'PRISMA 2020 Ítems 3 y 4 (Justificación científica y Objetivos PICO)',
+    prismaItemNumbers: ['3', '4'],
+    isConfirmed: false,
+    content: ``,
+    notes: 'Debe justificar la necesidad en el contexto de revisiones previas y plantear los objetivos exactos bajo PICO/PECO.',
+  },
+  {
+    id: 'methods',
+    title: '3. Métodos',
+    subtitle: 'PRISMA 2020 Ítems 5 a 15 (Estrategia booleana, elegibilidad, RoB 2 / ROBINS-I, GRADE)',
+    prismaItemNumbers: ['5', '6', '7', '8', '9', '10a', '10b', '11', '12', '13a', '13b', '13c', '13d', '13e', '13f', '14', '15'],
+    isConfirmed: false,
+    content: ``,
+    notes: 'Detalla fuentes con fecha de corte, sintaxis línea a línea, selección por pares ciegos, extracción y herramientas de sesgo.',
+  },
+  {
+    id: 'results',
+    title: '4. Resultados',
+    subtitle: 'PRISMA 2020 Ítems 16 a 22 (Flujograma, Características, Sesgos y Síntesis)',
+    prismaItemNumbers: ['16a', '16b', '17', '18', '19', '20a', '20b', '20c', '20d', '21', '22'],
+    isConfirmed: false,
+    content: ``,
+    notes: 'Presenta el diagrama de flujo PRISMA 2020 con números trazables, tabla de características (Tabla 1) y síntesis cuantitativa o narrativa.',
+  },
+  {
+    id: 'discussion',
+    title: '5. Discusión y Conclusiones',
+    subtitle: 'PRISMA 2020 Ítem 23a-d (Interpretación, Limitaciones e Implicaciones)',
+    prismaItemNumbers: ['23a', '23b', '23c', '23d'],
+    isConfirmed: false,
+    content: ``,
+    notes: 'Distingue rigurosamente las limitaciones del cuerpo de evidencia incluido de las limitaciones del proceso metodológico propio.',
+  },
+  {
+    id: 'other',
+    title: '6. Información Adicional y Registro',
+    subtitle: 'PRISMA 2020 Ítems 24 a 27 (PROSPERO, Financiación, Conflicto de Interés y Datos Abiertos)',
+    prismaItemNumbers: ['24a', '24b', '24c', '25', '26', '27'],
+    isConfirmed: false,
+    content: ``,
+    notes: 'Transparencia de registro en PROSPERO/OSF, declaración de patrocinadores y acceso abierto a formularios y matrices de datos.',
+  },
+];
